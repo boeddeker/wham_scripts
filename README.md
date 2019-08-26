@@ -2,6 +2,8 @@
 This repo is a git Version of the `wham_scripts` from http://wham.whisper.ai/.
 The original authors are Mitsubishi Electronics Research Laboratories (MERL) and Whisper (see http://wham.whisper.ai/).
 
+# Modifications
+
 Added a Makefile to create the wham dataset in our enviroment.
 The `create_wham_from_scratch.py`  expects a `wsj0` folder that contains the content of the following 5 folders:
 - $(wsj)/11-14.1/wsj0
@@ -11,6 +13,8 @@ The `create_wham_from_scratch.py`  expects a `wsj0` folder that contains the con
 - $(wsj)/11-6.1/wsj0
 
 The Makefile contains the code to create symlinks to virtually merge the folders.
+
+# Original README
 
 # Generating the WHAM! dataset
 
